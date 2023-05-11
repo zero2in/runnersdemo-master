@@ -50,7 +50,7 @@ B. Product Owner
 C. Development Team
 D. Quality Analyst
 
-Válasz:
+Válasz: D
 
 Kérdés 6:
 Mire utal a "User Story" kifejezés az Agile keretrendszerekben?
