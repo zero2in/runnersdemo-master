@@ -1,10 +1,9 @@
 {
 	"info": {
-		"_postman_id": "3280806a-0a27-445f-b66a-efc67205ca2f",
+		"_postman_id": "90a8b60a-fc59-4f48-9a45-4ea8a1f5d960",
 		"name": "Runners demo",
 		"description": "Runners Demo postman collection",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "9701363"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
@@ -70,6 +69,14 @@
 						"averagelaptime"
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAverageAge",
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		},
