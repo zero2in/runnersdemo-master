@@ -70,7 +70,7 @@ B. Az együttműködés a folyamatok felett
 C. A rugalmas válaszadás a változásokra
 D. A dokumentáció fontossága minden másnál
 
-Válasz:
+Válasz: D
 
 Kérdés 8:
 Mi az a Kanban módszer?
@@ -90,7 +90,7 @@ B. Extreme Programming (XP)
 C. Lean Software Development
 D. Vízesés modell
 
-Válasz:
+Válasz: D
 
 Kérdés 10:
 Mi a "Velocity" az Agile módszertanban?
