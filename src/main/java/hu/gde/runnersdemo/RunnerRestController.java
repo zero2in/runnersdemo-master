@@ -20,7 +20,21 @@ public class RunnerRestController {
         this.runnerRepository = runnerRepository;
         this.lapTimeRepository = lapTimeRepository;
     }
-
+    @GetMapping("/getaveragerunnerage")
+    public double getAverageRunnerAge(){
+        List<RunnerEntity> runner= runnerRepository.findAll();
+        if (runner != null){
+            int totalRunnerAge = 0;
+            for(RunnerEntity r : runner) {
+                totalRunnerAge = totalRunnerAge + r.getRunnerAge();
+            }
+            int counterRunnerAge = runner.size();
+            double averageRunnerAge = (double) totalRunnerAge / (double) counterRunnerAge;
+            return averageRunnerAge;
+        } else {
+            return -1.00;
+        }
+    }
     @GetMapping("/{id}")
     public RunnerEntity getRunner(@PathVariable Long id) {
         return runnerRepository.findById(id).orElse(null);
