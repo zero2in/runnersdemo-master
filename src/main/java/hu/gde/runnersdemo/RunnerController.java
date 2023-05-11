@@ -23,7 +23,6 @@ public class RunnerController {
         model.addAttribute("runners", runners);
         return "runners";
     }
-
     @GetMapping("/runner/{id}")
     public String getRunnerById(@PathVariable Long id, Model model) {
         RunnerEntity runner = runnerRepository.findById(id).orElse(null);
